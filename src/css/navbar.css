@@ -1,0 +1,253 @@
+/* Top Banner Section */
+a {
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar-section [type="checkbox"] {
+    display: none;
+}
+
+.active {
+    /* background-color: #b81104; */
+    color: #fff;
+    border-radius: 5px;
+    background-color: #b81104;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-section.activated {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 98;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    /* margin: auto; */
+}
+
+/* Top Banner */
+.top-banner {
+    width: 100%;
+    height: 35px;
+    max-width: 1440px;
+    margin: auto;
+    /* background-color: #480607; */
+    background-color: #FEC325;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    padding: 0px 20px;
+}
+
+.top-banner-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.phone,
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.top-banner-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+/* Navbar Section */
+.navbar-section {
+    width: 100%;
+    max-width: 1440px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 1440px;
+    margin: auto;
+    /* position: relative; */
+}
+
+.navbar-section .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.navbar-section .logo-section h2 {
+    font-family: "Poppins", sans-serif;
+    /* text-transform: uppercase; */
+}
+
+.navbar-section .logo-section h2 p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.navbar-section .logo-section img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-section .menu-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    transition: max-height 0.3s ease-in-out;
+    z-index: 80;
+}
+
+.navbar-section .menu-section li {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-section .menu-section li:hover {
+    background-color: #b81104;
+    color: #fff;
+}
+
+.navbar-section .search-section {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-section .search-section button,
+.none button {
+    background-color: #b81104;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* .navbar-section .search-section button:first-of-type {
+    border-radius: 55px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.navbar-section .search-section .menu-bars {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+input[type="checkbox"]:checked~.menu-section {
+    right: 0%;
+}
+
+.none {
+    display: none;
+}
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 900px) {
+
+    .none {
+        display: flex;
+        gap: 20px;
+    }
+
+    .top-banner {
+        display: none;
+    }
+
+    .navbar-section {
+        height: 60px;
+        padding: 0px 10px;
+        /* overflow: hidden; */
+    }
+
+    .navbar-section .menu-section {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 60px;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        list-style: none;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition: all 0.5s ease-in-out;
+        justify-content: start;
+        gap: 30px;
+        right: -110%;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .navbar-section .logo-section {
+        font-size: 12px;
+    }
+
+    .navbar-section .search-section .menu-bars {
+        display: block;
+    }
+
+    .navbar-section .menu-bars {
+        display: block;
+    }
+
+    .search-section .list-button {
+        display: none;
+    }
+
+    .search-section .search-button {
+        display: flex;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .navbar-section .search-section button:first-of-type {
+        display: none;
+    }
+
+    .active {
+        /* background-color: #b81104; */
+        color: #b81104;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+}
