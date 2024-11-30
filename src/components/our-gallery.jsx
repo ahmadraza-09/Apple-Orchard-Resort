@@ -20,22 +20,22 @@ import GalleryImage17 from "../assets/gallery/17.jpg";
 import GalleryImage18 from "../assets/gallery/18.jpg";
 import GalleryImage19 from "../assets/gallery/19.jpg";
 import GalleryImage20 from "../assets/gallery/20.jpg";
-// import GalleryImage21 from "../assets/gallery/21.jpg";
-// import GalleryImage22 from "../assets/gallery/22.jpg";
-// import GalleryImage23 from "../assets/gallery/23.jpg";
-// import GalleryImage24 from "../assets/gallery/24.jpg";
-// import GalleryImage25 from "../assets/gallery/25.jpg";
-// import GalleryImage26 from "../assets/gallery/26.jpg";
-// import GalleryImage27 from "../assets/gallery/27.jpg";
-// import GalleryImage28 from "../assets/gallery/28.jpg";
-// import GalleryImage29 from "../assets/gallery/29.jpg";
-// import GalleryImage30 from "../assets/gallery/30.jpg";
-// import GalleryImage31 from "../assets/gallery/31.jpg";
-// import GalleryImage32 from "../assets/gallery/32.jpg";
-// import GalleryImage33 from "../assets/gallery/33.jpg";
-// import GalleryImage34 from "../assets/gallery/34.jpg";
-// import GalleryImage35 from "../assets/gallery/35.jpg";
-// import GalleryImage36 from "../assets/gallery/36.jpg";
+import GalleryImage21 from "../assets/gallery/21.jpg";
+import GalleryImage22 from "../assets/gallery/22.jpg";
+import GalleryImage23 from "../assets/gallery/23.jpg";
+import GalleryImage24 from "../assets/gallery/24.jpg";
+import GalleryImage25 from "../assets/gallery/25.jpg";
+import GalleryImage26 from "../assets/gallery/26.jpg";
+import GalleryImage27 from "../assets/gallery/27.jpg";
+import GalleryImage28 from "../assets/gallery/28.jpg";
+import GalleryImage29 from "../assets/gallery/29.jpg";
+import GalleryImage30 from "../assets/gallery/30.jpg";
+import GalleryImage31 from "../assets/gallery/31.jpg";
+import GalleryImage32 from "../assets/gallery/32.jpg";
+import GalleryImage33 from "../assets/gallery/33.jpg";
+import GalleryImage34 from "../assets/gallery/34.jpg";
+import GalleryImage35 from "../assets/gallery/35.jpg";
+import GalleryImage36 from "../assets/gallery/36.jpg";
 // import GalleryImage37 from "../assets/gallery/37.jpg";
 // import GalleryImage38 from "../assets/gallery/38.jpg";
 // import GalleryImage39 from "../assets/gallery/39.jpg";
@@ -84,22 +84,22 @@ const imageList = [
   GalleryImage18,
   GalleryImage19,
   GalleryImage20,
-  // GalleryImage21,
-  // GalleryImage22,
-  // GalleryImage23,
-  // GalleryImage24,
-  // GalleryImage25,
-  // GalleryImage26,
-  // GalleryImage27,
-  // GalleryImage28,
-  // GalleryImage29,
-  // GalleryImage30,
-  // GalleryImage31,
-  // GalleryImage32,
-  // GalleryImage33,
-  // GalleryImage34,
-  // GalleryImage35,
-  // GalleryImage36,
+  GalleryImage21,
+  GalleryImage22,
+  GalleryImage23,
+  GalleryImage24,
+  GalleryImage25,
+  GalleryImage26,
+  GalleryImage27,
+  GalleryImage28,
+  GalleryImage29,
+  GalleryImage30,
+  GalleryImage31,
+  GalleryImage32,
+  GalleryImage33,
+  GalleryImage34,
+  GalleryImage35,
+  GalleryImage36,
   // GalleryImage37,
   // GalleryImage38,
   // GalleryImage39,

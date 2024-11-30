@@ -20,7 +20,7 @@ import image1 from "../assets/room/premium-room/1.webp";
 import image2 from "../assets/room/premium-room/2.webp";
 import image3 from "../assets/room/premium-room/3.webp";
 import image4 from "../assets/room/premium-room/4.webp";
-import image5 from "../assets/room/premium-room/5.webp";
+import image5 from "../assets/room/premium-room/5.jpg";
 
 
 import icon1 from "../assets/icons/double-bed.png";
