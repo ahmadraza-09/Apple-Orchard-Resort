@@ -12,6 +12,7 @@ import Payment from './pages/paymentpage';
 import PlacesToVisitPage from './pages/placestovisitpage'
 import DeluxeRoom from './pages/deluxe-room';
 import SuiteRoom from './pages/suite-room';
+import CancellationPolicyPage from './pages/cancellationpolicypage';
 
 
 function App() {
@@ -23,13 +24,14 @@ function App() {
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/gallery' element={<GalleryPage />} />
           <Route path='/about' element={<AboutPage />} />
-          <Route path="/premium-room" element={<PremiumRoom />} />
-          <Route path="/super-deluxe-room" element={<SuperDeluxeRoom />} />
-          <Route path="/deluxe-room" element={<DeluxeRoom />} />
-          <Route path="/suite-room" element={<SuiteRoom />} />
+          <Route path="/rooms/premium-room" element={<PremiumRoom />} />
+          <Route path="/rooms/super-deluxe-room" element={<SuperDeluxeRoom />} />
+          <Route path="/rooms/deluxe-room" element={<DeluxeRoom />} />
+          <Route path="/rooms/suite-room" element={<SuiteRoom />} />
           <Route path='/rooms' element={<RoomPage />} />
           <Route path='/payment' element={<Payment />} />
           <Route path='/places-to-visit' element={<PlacesToVisitPage />} />
+          <Route path='/cancellation-policy' element={<CancellationPolicyPage />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>

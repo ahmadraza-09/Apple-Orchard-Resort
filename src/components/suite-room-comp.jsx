@@ -107,6 +107,35 @@ const SuiteRoomComp = () => {
           </div>
         </div>
       </div>
+      <div className="room-overview">
+        <h2>Room Overview</h2>
+        <div className="overview-table">
+          <div className="overview-row">
+            <span className="label">Occupancy:</span>
+            <span className="value">Two Persons</span>
+          </div>
+          <div className="overview-row">
+            <span className="label">Size:</span>
+            <span className="value">250 sq. feet</span>
+          </div>
+          <div className="overview-row">
+            <span className="label">View:</span>
+            <span className="value">Himalayan View</span>
+          </div>
+          <div className="overview-row">
+            <span className="label">Room Service:</span>
+            <span className="value">Available per request</span>
+          </div>
+          <div className="overview-row">
+            <span className="label">Terraces:</span>
+            <span className="value">Balcony</span>
+          </div>
+          <div className="overview-row">
+            <span className="label">Internet Free:</span>
+            <span className="value">Yes</span>
+          </div>
+        </div>
+      </div>
       <div className="premium-room-comp-content room-card-price-left ">
         <h2>Suite Room</h2>
         <br />

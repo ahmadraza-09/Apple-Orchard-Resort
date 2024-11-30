@@ -163,7 +163,7 @@ const Footer = () => {
             </span> */}
             <span
               onClick={() => {
-                navigate("");
+                navigate("/cancellation-policy");
               }}
             >
               Cancellation & Refund Policy

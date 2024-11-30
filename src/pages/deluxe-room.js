@@ -5,32 +5,35 @@ import TopBanner from '../components/top-banner'
 import Footer from '../components/footer'
 import DeluxeRoomComp from '../components/deluxe-room-comp'
 import SocialMediaFixed from '../components/socialmedia-fixed'
-
+import SlidingText from "../components/sliding-text"
 
 const DeluxeRoom = () => {
 
     return (
         <>
             <Helmet>
-                <title>Family Rooms at Hotel Aroma Nainital - Spacious & Comfortable</title>
-                <meta name="description" content="Stay in our spacious Family Room at Hotel Aroma Nainital, designed for comfort and relaxation. Enjoy scenic views, modern amenities, and ample space for your family to enjoy a memorable stay in Nainital." />
-                <meta name="keywords" content="Family Room Hotel Aroma Nainital, family accommodations Nainital, family hotel room Nainital, spacious family room Nainital, Nainital family hotel, luxury family room Nainital, Hotel Aroma family room booking, family stay Nainital, hotel with family rooms in Nainital" />
-                <link rel="canonical" href="https://hotelaromanainital.com/family-room" />
+                <title>Deluxe Room - Apple Orchard Resort Dhanaulti</title>
+                <meta name="description" content="Book the Deluxe Room at Apple Orchard Resort, Dhanaulti for a comfortable and luxurious stay. Enjoy breathtaking views of the Himalayas with premium amenities and cozy interiors." />
+                <meta name="keywords" content="Deluxe Room, Apple Orchard Resort Dhanaulti, luxury room, resort booking, Dhanaulti room booking, Himalayan resort, best resort in Dhanaulti" />
+                <link rel="canonical" href="https://www.appleorchardresort.com/rooms/deluxe-room" />
 
                 {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Hotel",
-                        "name": "Family Rooms at Hotel Aroma Nainital - Spacious & Comfortable",
-                        "telephone": "+91 8743000120",
-                        "url": "https://hotelaromanainital.com/family-room"
+                        "@type": "Room",
+                        "name": "Deluxe Room",
+                        "url": "https://www.appleorchardresort.com/rooms/deluxe-room",
+                        "telephone": "+91-9958140101",
+                        "roomType": "Deluxe Room"
                     })}
                 </script>
             </Helmet>
 
+
             {<TopBanner />}
             {<Navbar />}
+            <SlidingText/>
             {<DeluxeRoomComp />}
             {<Footer />}
             {<SocialMediaFixed />}

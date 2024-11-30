@@ -7,39 +7,36 @@ import SocialMediaFixed from "../components/socialmedia-fixed";
 import IntroductionSection from "../components/introduction-section";
 import CustomerCountingCard from "../components/customers-counting-card";
 import OurResortValue from "../components/our-resort-value";
+import SlidingText from "../components/sliding-text";
 
 const AboutPage = () => {
     return (
         <>
             <Helmet>
-                <title>About - The Pearl 21 Villa</title>
-                <meta
-                    name="description"
-                    content="Learn about The Pearl 21 Villa in Udaipur, a luxurious retreat offering exceptional hospitality, elegant accommodations, and personalized services in the City of Lakes."
-                />
-                <meta
-                    name="keywords"
-                    content="About The Pearl 21 Villa, luxury villas in Udaipur, about us, villa hospitality Udaipur, elegant accommodations, personalized villa services, The Pearl Villa Udaipur, villa experience in Udaipur"
-                />
-                <link rel="canonical" href="https://thepearl21villa.com/about" />
+                <title>About Apple Orchard Resort - Luxury in Dhanaulti</title>
+                <meta name="description" content="Discover Apple Orchard Resort in Dhanaulti, nestled amidst the serene Himalayas. With 20 elegantly designed rooms and 4 luxury Swiss tents, the resort offers breathtaking views, rejuvenating ambiance, and unmatched hospitality for a perfect getaway." />
+                <meta name="keywords" content="About Apple Orchard Resort, Apple Orchard Resort Dhanaulti, Himalayan resort, luxury resort Dhanaulti, family suites Dhanaulti, luxury Swiss tents Dhanaulti, peaceful stay in nature, resorts in apple orchard, nature resort Dhanaulti" />
+                <link rel="canonical" href="https://www.appleorchardresort.com/about" />
 
                 {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Hotel",
-                        name: "About - The Pearl 21 Villa",
-                        telephone: "+91-9971834141",
-                        url: "https://thepearl21villa.com/about",
+                        "@type": "Resort",
+                        "name": "Apple Orchard Resort",
+                        "telephone": "+91-9958140101",
+                        "url": "https://www.appleorchardresort.com/about"
                     })}
                 </script>
             </Helmet>
 
+
             <TopBanner />
             <Navbar />
+            <SlidingText/>
             <IntroductionSection />
-            <CustomerCountingCard/>
-            <OurResortValue/>
+            <CustomerCountingCard />
+            <OurResortValue />
             <Footer />
             <SocialMediaFixed />
         </>

@@ -5,28 +5,32 @@ import Navbar from '../components/navbar';
 import ContactUs from '../components/contact-us';
 import Footer from '../components/footer';
 import SocialMediaFixed from '../components/socialmedia-fixed';
+import SlidingText from '../components/sliding-text';
 
 const ContactPage = () => {
     return (
         <>
             <Helmet>
-                <title>Contact Us - Vanasthali Jungle Resort</title>
-                <meta name="description" content="Find answers to frequently asked questions about Vanasthali Jungle Resort in Jim Corbett. Get information about booking, accommodations, activities, policies, and more." />
-                <meta name="keywords" content="Vanasthali Jungle Resort FAQ, Jim Corbett resort questions, frequently asked questions Corbett, resort booking info, accommodation FAQs, activities at Vanasthali, resort policies, Jim Corbett travel information, Jim Corbett safari questions" />
-                <link rel="canonical" href="https://vanasthalicorbett.com/contact" />
+                <title>Contact Us - Apple Orchard Resort Dhanaulti</title>
+                <meta name="description" content="Contact Apple Orchard Resort, Dhanaulti for bookings, inquiries, or assistance. Reach us via phone, email, or the contact form for your perfect getaway in the Himalayas." />
+                <meta name="keywords" content="contact Apple Orchard Resort, Dhanaulti contact, resort bookings, resort inquiries, Apple Orchard Resort phone number, Dhanaulti hotel contact, resort contact form" />
+                <link rel="canonical" href="https://www.appleorchardresort.com/contact" />
 
+                {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Hotel",
-                        "name": "Contact Us - Vanasthali Jungle Resort",
-                        "telephone": "+91 8510934101",
-                        "url": "https://vanasthalicorbett.com/contact"
+                        "@type": "Resort",
+                        "name": "Apple Orchard Resort",
+                        "telephone": "+91-9958140101",
+                        "url": "https://www.appleorchardresort.com/contact"
                     })}
                 </script>
             </Helmet>
+
             <TopBanner />
             <Navbar />
+            <SlidingText/>
             <ContactUs />
             <Footer />
             <SocialMediaFixed />

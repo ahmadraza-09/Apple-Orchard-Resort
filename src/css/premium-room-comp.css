@@ -46,6 +46,47 @@
     gap: 20px;
 }
 
+.room-overview {
+    max-width: 950px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+  .room-overview h2 {
+      text-align: start;
+      margin-bottom: 20px;
+      font-size: 24px;
+      display: inline-block;
+    padding-bottom: 5px;
+}
+
+.overview-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+  .overview-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 10px 0;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .value {
+    color: #333;
+  }
+  
+
 @media (max-width: 480px) {
     .premium-room-comp-content {
         padding: 20px;

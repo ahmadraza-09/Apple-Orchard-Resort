@@ -1,0 +1,29 @@
+.sliding-text {
+    width: 100%;
+    overflow: hidden;
+    background-color: #B81104;
+    color: #fff;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.sliding-text p {
+    display: inline-block;
+    animation: slide-right 20s linear infinite;
+    font-size: 18px;
+}
+
+@keyframes slide-right {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+@media (max-width: 480px) {
+    .sliding-text p {
+        font-size: 14px;
+    }
+}

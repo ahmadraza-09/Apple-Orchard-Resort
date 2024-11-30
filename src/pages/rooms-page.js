@@ -5,30 +5,33 @@ import TopBanner from '../components/top-banner'
 import Footer from '../components/footer'
 import ExploreRoomsSection from '../components/explore-rooms-section'
 import SocialMediaFixed from '../components/socialmedia-fixed'
+import SlidingText from '../components/sliding-text';
 
 const RoomsPage = () => {
     return (
         <>
             <Helmet>
-                <title>Rooms at Hotel Aroma Nainital - Comfortable Stay in Nainital</title>
-                <meta name="description" content="Explore the luxurious rooms at Hotel Aroma Nainital. Choose from a variety of rooms with stunning views, modern amenities, and comfortable accommodations for a memorable stay in Nainital." />
-                <meta name="keywords" content="Hotel Aroma Nainital rooms, luxury rooms in Nainital, hotel rooms Nainital, accommodations Nainital, rooms with lake view Nainital, best hotel rooms Nainital, Hotel Aroma room booking, Nainital hotel accommodation, comfortable rooms Nainital" />
-                <link rel="canonical" href="https://hotelaromanainital.com/rooms" />
+                <title>Rooms at Apple Orchard Resort - Premium, Deluxe, Suite, & Super Deluxe</title>
+                <meta name="description" content="Explore the luxurious accommodations at Apple Orchard Resort, Dhanaulti. Choose from Premium Rooms, Deluxe Rooms, Super Deluxe Rooms, and Suite Rooms, all offering breathtaking mountain views, elegant interiors, and modern amenities." />
+                <meta name="keywords" content="Rooms at Apple Orchard Resort, Premium Room Dhanaulti, Deluxe Room Dhanaulti, Super Deluxe Room Dhanaulti, Suite Room Dhanaulti, luxury rooms in Dhanaulti, Apple Orchard Resort rooms, mountain view accommodations, family suites Dhanaulti" />
+                <link rel="canonical" href="https://www.appleorchardresort.com/rooms" />
 
                 {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Hotel",
-                        "name": "Rooms at Hotel Aroma Nainital - Comfortable Stay in Nainital",
-                        "telephone": "+91 8743000120",
-                        "url": "https://hotelaromanainital.com/rooms"
+                        "@type": "Resort",
+                        "name": "Apple Orchard Resort",
+                        "telephone": "+91-9958140101",
+                        "url": "https://www.appleorchardresort.com/rooms"
                     })}
                 </script>
             </Helmet>
 
+
             {<TopBanner />}
             {<Navbar />}
+            <SlidingText/>
             {<ExploreRoomsSection />}
             {<Footer />}
             {<SocialMediaFixed />}

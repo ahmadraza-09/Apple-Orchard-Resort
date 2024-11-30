@@ -5,30 +5,34 @@ import TopBanner from '../components/top-banner';
 import Footer from '../components/footer';
 import Payment from '../components/payment';
 import SocialMediaFixed from '../components/socialmedia-fixed';
+import SlidingText from '../components/sliding-text';
 
 const PaymentPage = () => {
     return (
         <>
             <Helmet>
-                <title>Payment - Vanasthali Jungle Resort</title>
-                <meta name="description" content="Secure and easy payment options for booking your stay at Vanasthali Jungle Resort in Jim Corbett. Make payments via multiple methods and confirm your reservation with ease." />
-                <meta name="keywords" content="Vanasthali Jungle Resort payment, Jim Corbett resort booking, online payment for resort, Vanasthali payment options, secure payment gateway, Jim Corbett resort reservations, resort payment methods, confirm booking payment" />
-                <link rel="canonical" href="https://vanasthalicorbett.com/payment" />
+                <title>Payment - Apple Orchard Resort Dhanaulti</title>
+                <meta name="description" content="Make secure online payments for your bookings at Apple Orchard Resort, Dhanaulti. Enjoy hassle-free transactions for your family getaway or vacation in the Himalayas." />
+                <meta name="keywords" content="secure payment, online booking payment, Apple Orchard Resort Dhanaulti, resort booking, resort payment, Dhanaulti resort, secure transaction, payment gateway" />
+                <link rel="canonical" href="https://www.appleorchardresort.com/payment" />
 
+                {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Hotel",
-                        "name": "Vanasthali Jungle Resort",
-                        "telephone": "+91 8510934101",
-                        "url": "https://vanasthalicorbett.com/payment"
+                        "@type": "Resort",
+                        "name": "Apple Orchard Resort",
+                        "telephone": "+91-9958140101",
+                        "url": "https://www.appleorchardresort.com/payment"
                     })}
                 </script>
             </Helmet>
 
 
+
             <TopBanner />
             <Navbar />
+            <SlidingText/>
             <Payment />
             <Footer />
             <SocialMediaFixed />

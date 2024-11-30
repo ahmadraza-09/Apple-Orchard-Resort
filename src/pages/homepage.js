@@ -11,6 +11,7 @@ import CustomerCountingCard from '../components/customers-counting-card';
 import Testimonial from '../components/testimonial';
 import GuestReviews from '../components/guest-reviews';
 import ExploreRoomsSection from '../components/explore-rooms-section';
+import SlidingText from '../components/sliding-text';
 
 
 const HomePage = () => {
@@ -18,29 +19,32 @@ const HomePage = () => {
         <>
             <Helmet>
                 <title>Apple Orchard Resort - Luxury Stay in Dhanaulti</title>
-                <meta name="description" content="Experience the beauty of nature at Vanasthali Jungle Resort, located in Jim Corbett National Park. Enjoy comfortable accommodations, thrilling wildlife safaris, and serene jungle views in one of India's top wildlife destinations." />
-                <meta name="keywords" content="Vanasthali Jungle Resort, Jim Corbett Resort, luxury jungle resort, wildlife resort, eco-friendly resort, Jim Corbett National Park, nature resort, adventure resort, wildlife safari, Ramnagar resorts, nature stay Corbett, jungle lodge, wildlife experiences, Corbett National Park resort, jungle stay Jim Corbett, eco-tourism Corbett" />
-                <link rel="canonical" href="https://vanasthalicorbett.com" />
+                <meta name="description" content="Apple Orchard Resort in Dhanaulti offers a serene and luxurious retreat surrounded by breathtaking mountain views. Experience premium accommodations, delicious cuisine, and unparalleled hospitality in the lap of nature." />
+                <meta name="keywords" content="Apple Orchard Resort Dhanaulti, luxury resort Dhanaulti, best hotels in Dhanaulti, mountain resort Dhanaulti, nature retreat Dhanaulti, resorts with mountain views, Apple Orchard stay,Best resorts in Dhanaulti, Pet friendly resorts in Dhanaulti, Hotels and resorts in Dhanaulti, Best hotels and resorts in Dhanaulti, Good resorts in Dhanaulti, Resorts at Dhanaulti, Luxury resorts in Dhanaulti, Resorts in Dhanaulti Uttarakhand, Dhanaulti hotels & resorts, Dhanaulti best resort, Hotels and resorts near Dhanaulti, Luxury stay in Dhanaulti" />
+                <link rel="canonical" href="https://www.appleorchardresort.com/" />
 
+                {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Hotel",
-                        "name": "Vanasthali Jungle Resort - Luxury Stay in Jim Corbett National Park",
-                        "telephone": "+91 8510934101",
-                        "url": "https://vanasthalicorbett.com"
+                        "@type": "Resort",
+                        "name": "Apple Orchard Resort",
+                        "telephone": "+91-9958140101",
+                        "url": "https://www.appleorchardresort.com"
                     })}
                 </script>
             </Helmet>
+
             <TopBanner />
             <Navbar />
-            <HeroSection/>
-            <IntroductionSection/>
-            <OurResortValue/>
-            <CustomerCountingCard/>
-            <ExploreRoomsSection/>
-            <GuestReviews/>
-            <Testimonial/>
+            <SlidingText/>
+            <HeroSection />
+            <IntroductionSection />
+            <OurResortValue />
+            <CustomerCountingCard />
+            <ExploreRoomsSection />
+            <GuestReviews />
+            <Testimonial />
             <Footer />
             <SocialMediaFixed />
         </>

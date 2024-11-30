@@ -27,7 +27,7 @@ const RoomCard = ({ image, title, description, price }) => {
         <div className="room-card-price-right">
           <button
             onClick={() => {
-              navigate(`/${formatTitleForUrl(title)}`);
+              navigate(`/rooms/${formatTitleForUrl(title)}`);
             }}
           >
             View Details
