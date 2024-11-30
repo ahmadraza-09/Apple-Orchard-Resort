@@ -35,11 +35,11 @@ const SocialMediaFixed = () => {
           >
             <img src={Youtube} alt="YouTube" />
           </a> */}
-          <a href="tel:+919717534101" target="_blank" rel="noopener noreferrer">
+          <a href="tel:+919958140101" target="_blank" rel="noopener noreferrer">
             <img src={Call} alt="Call" />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=919717534101&text=Hello!%20I%20have%20a%20query%20regarding%Vanasthali%Jungle%Resort%Corbett."
+            href="https://api.whatsapp.com/send?phone=919958140101&text=Hello!%20I%20have%20a%20query%20regarding%20Apple%20Orchard%20Resort%20Dhanaulti."
             target="_blank"
           >
             <img src={Whatsapp} alt="Call" />

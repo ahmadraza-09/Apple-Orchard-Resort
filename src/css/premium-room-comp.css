@@ -1,0 +1,53 @@
+.premium-room-comp-content {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 40px;
+}
+
+.premium-room-comp-content p {
+    text-align: start;
+    font-style: normal;
+}
+
+.premium-room-comp-content button {
+    background-color: #b81104;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1.5px solid #b81104;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    margin-top: 20px;
+}
+
+.premium-room-comp-content button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1.5px solid #b81104;
+}
+
+.room-services {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 480px) {
+    .premium-room-comp-content {
+        padding: 20px;
+    }
+}

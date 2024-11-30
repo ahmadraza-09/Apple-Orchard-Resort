@@ -155,4 +155,8 @@
         font-size: 25px;
     }
 
+    .places-to-visit-card-content {
+        padding: 10px;
+    }
+
 }

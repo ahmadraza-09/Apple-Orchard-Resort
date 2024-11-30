@@ -1,0 +1,93 @@
+.our-resort-value-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.our-resort-value-left {
+    width: 50%;
+    height: 100%;
+}
+
+.our-resort-value-left img    {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.our-resort-value-right {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.our-resort-value-right h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.our-resort-value-right-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.our-resort-value-right-container-header h3 {
+    border: 2px solid #B81104;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+
+.our-resort-value-right-container-header h3:hover {
+    background-color: #B81104;
+    color: #fff;
+}
+
+.our-resort-value-right-container-content h3{
+    text-transform: uppercase;
+}
+
+.active-header-content {
+    background-color: #B81104;
+    color: #fff;
+  }
+  
+
+  /* Responsive */
+  @media (max-width: 480px) {
+    .our-resort-value-section {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .our-resort-value-section p {
+        font-size: 14px;
+    }
+
+    .our-resort-value-left {
+        display: none;
+    }
+
+    .our-resort-value-right {
+        width: 100%;
+    }
+
+    .our-resort-value-right-container-header {
+        gap: 10px;
+    }
+
+    .our-resort-value-right-container-header h3 {
+        font-size: 12px;
+    }
+}
