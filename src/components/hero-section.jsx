@@ -21,11 +21,6 @@ const HeroSection = () => {
           preload="auto"
           onLoad={handleVideoLoad} // When video is ready to play, mark it as loaded
         />
-        <div className="overlay-content swipe">
-          <h1>
-            Welcome to <br /> Apple Orchard Resort
-          </h1>
-        </div>
       </div>
     </section>
   );
