@@ -12,6 +12,7 @@ import Testimonial from '../components/testimonial';
 import GuestReviews from '../components/guest-reviews';
 import ExploreRoomsSection from '../components/explore-rooms-section';
 import SlidingText from '../components/sliding-text';
+import FestiveModalContainer from '../components/festive-modal-container';
 
 
 const HomePage = () => {
@@ -34,6 +35,8 @@ const HomePage = () => {
                     })}
                 </script>
             </Helmet>
+
+            <FestiveModalContainer />
 
             <TopBanner />
             <Navbar />
